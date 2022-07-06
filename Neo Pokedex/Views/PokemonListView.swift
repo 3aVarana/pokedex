@@ -61,6 +61,9 @@ struct PokemonListView: View {
                     .cornerRadius(10)
             )
             .padding(.horizontal, 30)
+            
+            PokemonRowView()
+            PokemonRowView()
         }
     }
 }

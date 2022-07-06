@@ -16,6 +16,7 @@
 		7E8BC5FB2875302A0035DE92 /* Neo_PokedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BC5FA2875302A0035DE92 /* Neo_PokedexUITestsLaunchTests.swift */; };
 		7E8BC60A287531B30035DE92 /* PokemonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BC609287531B30035DE92 /* PokemonListView.swift */; };
 		7E8BC60C287532550035DE92 /* TopHeaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BC60B287532550035DE92 /* TopHeaderButton.swift */; };
+		7E8BC60E287535440035DE92 /* PokemonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BC60D287535440035DE92 /* PokemonRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7E8BC5FA2875302A0035DE92 /* Neo_PokedexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neo_PokedexUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E8BC609287531B30035DE92 /* PokemonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListView.swift; sourceTree = "<group>"; };
 		7E8BC60B287532550035DE92 /* TopHeaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeaderButton.swift; sourceTree = "<group>"; };
+		7E8BC60D287535440035DE92 /* PokemonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				7E8BC609287531B30035DE92 /* PokemonListView.swift */,
 				7E8BC60B287532550035DE92 /* TopHeaderButton.swift */,
+				7E8BC60D287535440035DE92 /* PokemonRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8BC60C287532550035DE92 /* TopHeaderButton.swift in Sources */,
+				7E8BC60E287535440035DE92 /* PokemonRowView.swift in Sources */,
 				7E8BC5E0287530270035DE92 /* ContentView.swift in Sources */,
 				7E8BC60A287531B30035DE92 /* PokemonListView.swift in Sources */,
 				7E8BC5DE287530270035DE92 /* Neo_PokedexApp.swift in Sources */,
