@@ -12,10 +12,10 @@ struct TopHeaderButton: View {
     var action: () -> Void
     var body: some View {
         Button(action: action, label: {
-            Image(systemName: icon)
+            Image(icon)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 20, height: 20)
+                .frame(width: 25, height: 25)
                 .foregroundColor(Color("blackText"))
         })
     }
@@ -23,6 +23,6 @@ struct TopHeaderButton: View {
 
 struct TopHeaderButton_Previews: PreviewProvider {
     static var previews: some View {
-        TopHeaderButton(icon: "heart.fill", action: {})
+        TopHeaderButton(icon: "generation", action: {})
     }
 }

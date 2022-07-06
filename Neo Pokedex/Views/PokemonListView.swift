@@ -26,9 +26,9 @@ struct PokemonListView: View {
         ScrollView {
             HStack(spacing: 25) {
                 Spacer()
-                TopHeaderButton(icon: "square.grid.3x3.topright.filled", action: showGenerationListPage)
-                TopHeaderButton(icon: "arrow.up.arrow.down.square", action: showSortingListPage)
-                TopHeaderButton(icon: "command.square", action: showFiltersPage)
+                TopHeaderButton(icon: "generation", action: showGenerationListPage)
+                TopHeaderButton(icon: "sort", action: showSortingListPage)
+                TopHeaderButton(icon: "filter", action: showFiltersPage)
             }
             .padding(.horizontal, 20)
 
